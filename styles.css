@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(142, 208, 246);
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+#numGerados{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(98, 137, 210);
+}
+
+#resultadoUltimo {
+    background-color: rgb(148, 170, 212);
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    cursor: pointer;
+}
+
+#seletor {
+    border: solid 5px  rgb(98, 137, 210);
+}

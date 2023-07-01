@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador da Sorte</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>    
+    <h2>Gerador de jogos para as loterias</h2>
+    <strong><spam id="numGerados"></spam></strong><br><br>
+    <select id="seletor" label="loterias">
+        <option value="0" selected>Escolha:</option>
+        <option value="lotofacil">Lotofácil</option>
+        <option value="megasena">Mega-Sena</option>
+        <option value="quina">Quina</option>
+        <option value="lotomania">Lotomania</option>
+    </select><br><br>
+    <button id="gerar" onclick="gerarNumeros()">Gerar aposta!🍀</button><br><br>
+    <button id="resultado" onclick="exibeResultado()">Conferir resultado*</a></button><br><br>
+    <strong><spam id="resultadoUltimo"> </spam></strong><br>
+    <p>*Resultado do último sorteio. Para mais detalhes do concurso selecionado, <a href="https://loterias.caixa.gov.br/" id="resultadoDetalhado" target="_blank">clique aqui.</a> </p>
+</body>
+</html>
